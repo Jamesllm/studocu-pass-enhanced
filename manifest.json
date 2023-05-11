@@ -1,8 +1,11 @@
 {
-  "name": "studocu bypass enhanced by Jamesllm",
+  "name": "studocu bypass enhanced",
   "description": "bypasses studocu payment wall",
   "version": "1.0",
-  "manifest_version": 2,
+  "manifest_version": 3,
+  "icons": {
+    "128": "logo.png"
+  },
   "content_scripts": [
     {
       "matches": ["https://www.studocu.com/*", "https://studocu.com/*"],
