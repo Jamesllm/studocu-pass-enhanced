@@ -2,11 +2,11 @@ console.log("loaded");
 window.addEventListener("load", function () {
   console.log("injected");
   setTimeout(() => {
-    let testBanner = document.querySelector("._d090be426bcb");
+    let wrapp = document.getElementById("document-wrapper");
     let banner = document.querySelector("._869f7c361ca9");
-    testBanner.style.display = "none";
+    wrapp.firstChild.style.display = "none";
     banner.style.display = "none";
-  }, 50);
+  }, 100);
 
   setTimeout(() => {
     try {
